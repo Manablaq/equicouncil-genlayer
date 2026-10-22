@@ -8,17 +8,18 @@
 - Explicit transaction-fee review, chain switch, finalized receipt checking, duplicate-submission safety lock
 - Five unit tests for validation/state-machine gating, plus automated static JSX syntax check
 
-## Not claimed
-- No deployed frontend URL yet
-- No Mac/Vite production bundle or live wallet smoke-test verified yet
-- No complete three-wallet browser integration certification yet
-- No changes to already-certified contract, no contract redeploy, no blockchain write
+## Public release — October 22, 2026
+- Live app: https://equicouncil.vercel.app
+- GitHub: https://github.com/Manablaq/equicouncil-genlayer
+- Production Vercel deployment verified READY.
+- R91: Vite 6.4.5, five tests passed, build passed, zero npm vulnerabilities.
+- Browser dashboard, session reads, and wallet connection user-confirmed.
+- The original Intelligent Contract and certified 9/9 lifecycle are unchanged.
 
-## Required before publication
-1. `npm install && npm run check` on the Mac
-2. Verify read of `session:1` and wallet network switching on chain 61997
-3. Fund an independent test wallet; complete one write and successful finalization
-4. Then deploy the Vite `dist` build to Vercel
+## Remaining limitations
+- No new transaction through the public frontend has been independently verified; this test was deliberately skipped for submission.
+- The complete frontend-driven three-wallet journey has not been certified.
+- This is a Studio Devnet beta, not a mainnet or third-party security-audited release.
 
 ## SHA note
 The frontend ZIP SHA-256 and file manifest are supplied alongside the download. Preserve the package for reproducibility.

@@ -1,7 +1,7 @@
 # EquiCouncil — Submission Summary
 
 **Application:** https://equicouncil.vercel.app  
-**Source:** https://github.com/Manablaq/equicouncil-genlayer (valid after R92 GitHub publication succeeds)  
+**Source:** https://github.com/Manablaq/equicouncil-genlayer
 **Network:** GenLayer Studio Devnet, chain 61997  
 **Contract:** `0xc948f6411C3D3CF10C8fF9927E0932B2d8d3b438`
 
